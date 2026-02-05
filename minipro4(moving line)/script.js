@@ -1,0 +1,50 @@
+window.addEventListener("wheel",function(dets){
+    if(dets.deltaY>0){
+        gsap.to(".marque",{
+            transform:"translateX(-200%)",
+            duration:3,
+            repeat:-1,
+            ease:"none"
+        })
+
+        gsap.to(".marque img",{
+            rotate:180
+        })
+    }
+    else{
+        gsap.to(".marque",{
+            transform:"translateX(0%)",
+            duration:3,
+            repeat:-1,
+            ease:"none"
+        })
+        gsap.to(".marque img",{
+            rotate:0
+        })
+    }
+})
+window.addEventListener("keydown", function (dets) {
+    if (dets.key === 'ArrowUp') {
+        gsap.to(".marque", {
+            transform: "translateX(-200%)",
+            duration: 3,
+            repeat: -1,
+            ease: "none"
+        })
+
+        gsap.to(".marque img", {
+            rotate: 180
+        })
+    }
+    else if (dets.key === 'ArrowDown') {
+        gsap.to(".marque", {
+            transform: "translateX(0%)",
+            duration: 3,
+            repeat: -1,
+            ease: "none"
+        })
+        gsap.to(".marque img", {
+            rotate: 0
+        })
+    }
+})

@@ -1,0 +1,47 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body{
+height: 100%;
+width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cursor{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 4px;
+    text-align: center;
+    z-index: 9;
+}
+.image{
+    height: 40%;
+    width: 50%;
+    background-color: #ff0000;
+    position: relative;
+    /* background-position: center;
+    background-size: cover; */
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 10;
+}

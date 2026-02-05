@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofadi+One&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Sofadi One", system-ui;
+}
+html,
+body{
+height: 100%;
+width: 100%
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    background-image: url(david-menidrey-zpUsOQzByFg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    color: white;
+}
+.nav h2{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.nav i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.486);
+    top: 0;
+    right: -40%;
+    color: black;
+    backdrop-filter: blur(10px);
+    padding: 100px 60px;
+}
+.full h4{
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}

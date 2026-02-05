@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Handjet:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&family=Sofadi+One&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body{
+height: 100%;
+width: 100%;
+font-family: "Handjet", sans-serif;
+}
+body{
+    background-color: black;
+}
+.page1, .page2, .page3{
+    height: 100%;
+    width: 100%;
+    padding: 5vw 0;
+}
+.move{  
+    background-color: rgb(217, 255, 6);
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+    border: 2px solid orange;
+}
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    /* transform: translateX(-100%); */
+    /* background-color: brown; */
+    border: 2px solid red;
+}
+.marque h1{
+    font-size: 4vw;
+}
+.marque img{
+    height: 4vw;
+}

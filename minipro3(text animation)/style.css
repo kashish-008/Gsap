@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&family=Sofadi+One&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: white;
+}
+html,
+body{
+height: 100%;
+width: 100%;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 70px;
+}
+h1{
+    background-color: transparent;
+    overflow: hidden;
+}
+h1 span{
+    display: inline-block;
+}

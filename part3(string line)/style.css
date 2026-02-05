@@ -1,0 +1,26 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body{
+height: 100%;
+width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+.string{
+    height: 250px;
+    width: 100%;
+    /* background-color: rgb(45, 215, 215); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+svg{
+    /* background-color: red; 
+} */
