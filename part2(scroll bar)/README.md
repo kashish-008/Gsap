@@ -1,1 +1,1 @@
-https://kashish-008.github.io/Gsap/part2(scroll bar)
+https://kashish-008.github.io/Gsap/part2(scroll%20bar)

@@ -1,1 +1,1 @@
-https://kashish-008.github.io/Gsap/part3(stringline)
+https://kashish-008.github.io/Gsap/part3(string%20line)
