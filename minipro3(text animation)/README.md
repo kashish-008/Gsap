@@ -1,1 +1,1 @@
-https://kashish-008.github.io/Gsap/minipro3(text animation)
+https://kashish-008.github.io/Gsap/minipro3(text%20animation)
